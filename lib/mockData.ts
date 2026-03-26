@@ -3,12 +3,12 @@ import { User, DangerZone, LocationHistory, EmergencyAlert, ChatMessage } from '
 // Mock current user
 export const mockCurrentUser: User = {
   id: 'user-1',
-  email: 'alex@safezone.com',
-  name: 'Alex Johnson',
-  emergency_contacts: ['mom@email.com', 'best-friend@email.com'],
+  email: 'maityarpan24@gmail.com',
+  name: 'Arpan Maity',
+  emergency_contacts: ['mom@email.com', 'soumyodipthanadar2004@email.com'],
   location_sharing_enabled: true,
-  created_at: '2024-01-15',
-  updated_at: '2025-03-26',
+  created_at: '2026-03-26',
+  updated_at: '2026-03-26',
 };
 
 // Mock danger zones
@@ -24,8 +24,8 @@ export const mockDangerZones: DangerZone[] = [
     reported_by_user_id: 'user-2',
     report_count: 8,
     verified: true,
-    created_at: '2025-03-10',
-    updated_at: '2025-03-25',
+    created_at: '2026-03-26',
+    updated_at: '2026-03-26',
   },
   {
     id: 'dz-2',
@@ -38,8 +38,8 @@ export const mockDangerZones: DangerZone[] = [
     reported_by_user_id: 'user-3',
     report_count: 15,
     verified: true,
-    created_at: '2025-02-20',
-    updated_at: '2025-03-24',
+    created_at: '2026-03-26',
+    updated_at: '2026-03-26',
   },
   {
     id: 'dz-3',
@@ -52,8 +52,8 @@ export const mockDangerZones: DangerZone[] = [
     reported_by_user_id: 'user-4',
     report_count: 12,
     verified: true,
-    created_at: '2025-01-05',
-    updated_at: '2025-03-20',
+    created_at: '2026-03-26',
+    updated_at: '2026-03-26',
   },
   {
     id: 'dz-4',
@@ -66,8 +66,8 @@ export const mockDangerZones: DangerZone[] = [
     reported_by_user_id: 'user-5',
     report_count: 25,
     verified: true,
-    created_at: '2025-01-20',
-    updated_at: '2025-03-22',
+    created_at: '2026-03-26',
+    updated_at: '2026-03-26',
   },
 ];
 
